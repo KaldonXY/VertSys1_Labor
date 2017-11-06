@@ -3,6 +3,16 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+header, footer {
+  background: #808080;
+  color: white;
+}
+
+main .taglist {
+  background: #0099FF;
+  color: white;
+}
+
 a {
   color: #00B7FF;
 }
