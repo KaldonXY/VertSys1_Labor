@@ -31,10 +31,10 @@
 					<label for="longtitude">longtitude</label><br>
 					<input type="number" name="longtitude" id="longtitude" placeholder="9.182496" required><br>
 					<label for="name">name</label><br>
-					<input type="text" name="name" id="name" placeholder="some name"><br>
+					<input type="text" name="name" id="name" placeholder="some name" maxlength="10" title="Names must contain a maximum of 10 letters" required><br>
 					<label for="hashtag">hashtag</label><br>
 					<input type="text" name="hashtag" id="hashtag" placeholder="# + max. 10 letters"
-					pattern="#[A-Za-z]+" maxlength="10" title="hashtag must begin with a #"><br>
+					pattern="#[A-Za-z]+" maxlength="11" title="hashtag must begin with a #"><br>
 					<input type="button" name="submit" value="submit">
 				</fieldset>
 			</form>
